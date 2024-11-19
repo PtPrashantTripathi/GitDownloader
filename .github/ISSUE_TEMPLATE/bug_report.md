@@ -1,6 +1,6 @@
 ---
 name: Bug report 🐛
-about: Create a bug report for GitHubDownloader
+about: Create a bug report for GitDownloader
 labels: bug
 ---
 

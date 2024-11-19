@@ -1,6 +1,6 @@
 ---
 name: Feature request 💄
-about: Suggest a new idea for GitHubDownloader.
+about: Suggest a new idea for GitDownloader.
 labels: enhancement
 ---
 
@@ -13,7 +13,7 @@ labels: enhancement
 ## Examples 🌈
 
 <!--
-  Provide a link to the GitHubDownloader specification, other implementations,
+  Provide a link to the GitDownloader specification, other implementations,
   or screenshots of the expected behavior.
 -->
 
