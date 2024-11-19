@@ -13,7 +13,7 @@ on:
     branches:
       - main
     paths:
-      - 'StockETL/**'
+      - 'GitHubDownloader/**'
   # Allow manual trigger from the Actions tab
   workflow_dispatch:
 
@@ -25,7 +25,7 @@ jobs:
     # Environment configuration for GitHub Pages deployment
     environment:
       name: python
-      url: https://pypi.org/project/StockETL/
+      url: https://pypi.org/project/GitHubDownloader/
 
     # Use the latest stable Ubuntu runner
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-# Contributing to PortfolioTracker
+# Contributing to GitHubDownloader
 
 If you're reading this, you're awesome! Thank you for helping us make this project great. Here are a few guidelines that will help you along the way.
 

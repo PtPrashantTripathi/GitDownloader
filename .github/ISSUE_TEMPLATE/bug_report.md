@@ -1,6 +1,6 @@
 ---
 name: Bug report 🐛
-about: Create a bug report for PortfolioTracker
+about: Create a bug report for GitHubDownloader
 labels: bug
 ---
 

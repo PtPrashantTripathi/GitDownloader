@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "GitHubDownloader=GitHubDownloader:main",  # CLI entry point
+            "GitHubDownloader=GitHubDownloader.cli:main",  # CLI entry point
         ],
     },
     classifiers=[

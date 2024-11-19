@@ -1,6 +1,6 @@
 ---
 name: Feature request 💄
-about: Suggest a new idea for PortfolioTracker.
+about: Suggest a new idea for GitHubDownloader.
 labels: enhancement
 ---
 
@@ -13,7 +13,7 @@ labels: enhancement
 ## Examples 🌈
 
 <!--
-  Provide a link to the PortfolioTracker specification, other implementations,
+  Provide a link to the GitHubDownloader specification, other implementations,
   or screenshots of the expected behavior.
 -->
 

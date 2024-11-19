@@ -1,19 +1,18 @@
-from .downloader import GitHubDownloader
-import sys
+# from .downloader import GitHubDownloader
+import argparse
 
 def main():
     """
     CLI entry point for the script.
     """
-    if len(sys.argv) < 2:
-        print("Usage: GitHubDownloader <GitHub URL>")
-        sys.exit(1)
-    url = sys.argv[1]
-    try:
-        downloader = GitHubDownloader(url=url)
-        downloader.download()
-    except Exception as e:
-        print(f"Error: {e}")
+    parser = argparse.ArgumentParser(description="Download files from GitHub.")
+    parser.add_argument("url", help="GitHub URL (file, directory, or repository).")
+    parser.add_argument("-z", "--zip", action="store_true", help="Zip the downloaded files.")
+    args = parser.parse_args()
+
+    print(args.url,type(args.zip))
+    # downloader = GitHubDownloader(args.url, save_as_zip=args.zip)
+    # downloader.download()
 
 if __name__ == "__main__":
     main()
