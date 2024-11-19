@@ -1,6 +1,6 @@
 # GitDownloader
 
-![GitDownloader-Logo](https://raw.githubusercontent.com/PtPrashantTripathi/GitDownloader/refs/heads/main/.github/GitDownloader-Logo.webp)
+![GitDownloader-Logo](https://raw.githubusercontent.com/PtPrashantTripathi/GitDownloader/refs/heads/main/.github/GitHubDownloader-Logo.webp)
 
 **GitDownloader** is a Python CLI tool for downloading files, directories, or entire repositories from GitHub, supporting recursive downloads for folders and the option to save files as a ZIP archive.
 

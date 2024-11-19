@@ -1,4 +1,4 @@
-# from .downloader import GitDownloader
+from .downloader import GitDownloader
 import argparse
 
 def main():
@@ -10,9 +10,8 @@ def main():
     parser.add_argument("-z", "--zip", action="store_true", help="Zip the downloaded files.")
     args = parser.parse_args()
 
-    print(args.url,type(args.zip))
-    # downloader = GitDownloader(args.url, save_as_zip=args.zip)
-    # downloader.download()
+    downloader = GitDownloader(args.url, save_as_zip=args.zip)
+    downloader.download()
 
 if __name__ == "__main__":
     main()
