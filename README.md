@@ -1,8 +1,8 @@
-# GitHubDownloader
+# GitDownloader
 
-![GitHubDownloader-Logo](https://raw.githubusercontent.com/PtPrashantTripathi/GitHubDownloader/refs/heads/main/.github/GitHubDownloader-Logo.webp)
+![GitDownloader-Logo](https://raw.githubusercontent.com/PtPrashantTripathi/GitDownloader/refs/heads/main/.github/GitDownloader-Logo.webp)
 
-**GitHubDownloader** is a Python CLI tool for downloading files, directories, or entire repositories from GitHub, supporting recursive downloads for folders and the option to save files as a ZIP archive.
+**GitDownloader** is a Python CLI tool for downloading files, directories, or entire repositories from GitHub, supporting recursive downloads for folders and the option to save files as a ZIP archive.
 
 ## Features
 
@@ -13,17 +13,17 @@
 
 ## Installation
 
-Ensure you have Python 3.7 or later installed. Then, install **GitHubDownloader** using `pip`:
+Ensure you have Python 3.7 or later installed. Then, install **GitDownloader** using `pip`:
 
 ```bash
-pip install GitHubDownloader
+pip install GitDownloader
 ```
 
 Alternatively, clone the repository and install it directly:
 
 ```bash
-git clone https://github.com/PtPrashantTripathi/GitHubDownloader.git
-cd GitHubDownloader
+git clone https://github.com/PtPrashantTripathi/GitDownloader.git
+cd GitDownloader
 pip install .
 ```
 
@@ -31,34 +31,34 @@ pip install .
 
 ### Command Line Interface (CLI)
 
-Use the `GitHubDownloader` command to download GitHub files or directories:
+Use the `GitDownloader` command to download GitHub files or directories:
 
 ```bash
-GitHubDownloader <GitHub URL>
+GitDownloader <GitHub URL>
 ```
 
 ### Examples
 
 1. **Download a single file**:
    ```bash
-   GitHubDownloader https://github.com/user/repo/blob/main/path/to/file.txt
+   GitDownloader https://github.com/user/repo/blob/main/path/to/file.txt
    ```
 
 2. **Download an entire directory**:
    ```bash
-   GitHubDownloader https://github.com/user/repo/tree/main/path/to/directory
+   GitDownloader https://github.com/user/repo/tree/main/path/to/directory
    ```
 
 3. **Download the whole repository**:
    ```bash
-   GitHubDownloader https://github.com/user/repo
+   GitDownloader https://github.com/user/repo
    ```
 
 4. **Save files as a ZIP archive**:
 
    Add `-z` to zip the downloaded files.
    ```bash
-   GitHubDownloader https://github.com/user/repo/tree/main/path/to/directory -z
+   GitDownloader https://github.com/user/repo/tree/main/path/to/directory -z
    ```   
 
 ## License

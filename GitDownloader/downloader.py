@@ -4,7 +4,7 @@ import zipfile
 from urllib.parse import urlparse
 
 
-class GitHubDownloader:
+class GitDownloader:
     """Class to handle downloading files and directories from a GitHub repository."""
 
     def __init__(self, url, save_as_zip=False):
